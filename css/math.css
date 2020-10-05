@@ -1,0 +1,113 @@
+
+*{
+    background-color: rgb(53, 245, 53);
+}
+table {
+    width: 50%;
+    height: 500px;
+  
+ }
+ .titu{
+    font-weight:bold ;
+    text-align: center;
+     font-size: 50px;
+    text-shadow: 1px 1px white, -1px -1px #333;
+    background-color:yellow;
+    color: red;
+    padding: 10px;
+ }
+ .cont{
+    font-weight:bold ;
+    text-align: left;
+     font-size: 20px;
+    background-color:blue;
+    color: black;
+    padding: 10px;  
+     
+ }
+ .sub{
+    font-weight:bold ;
+    text-align: left;
+     font-size: 25px;
+    background-color:yellow;
+    color: black;
+    padding: 10px;  
+ }
+
+ .radio {
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-gap: 0.5em;
+  }
+
+  p {
+    column-rule: black solid 2px;
+    columns: 3;
+    text-align: justify;
+  }
+
+  .sub2{
+    font-weight:bold ;
+    text-align: left;
+     font-size: 20px;
+    background-color:blue;
+    color: black;
+    padding: 10px;  
+     
+ }
+ button
+ {
+    
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    background-color:red;
+    border-radius: 15px;
+    border: 3px double white;
+  }
+  .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+.sub3{
+
+        font-weight:bold ;
+        text-align: left;
+         font-size: 25px;
+        background-color:palevioletred;
+        color: black;
+        padding: 10px;  
+     
+
+
+}
+.butt{
+   text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: helvetica;
+    font-weight: 50;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    background-color:blue;
+   
+    border: 3px double white;
+}
+.text{
+   font-weight:bold ;
+    text-align: left;
+     font-size: 13px;
+    background-color:blue;
+    color: black;
+    padding: 5px;  
+}
+ 
+     
+  

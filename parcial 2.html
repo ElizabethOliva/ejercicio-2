@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>Uso del With</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="css/math.css" />
+ <script  src="js/with.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="cuerpo">
+		<div id="formulario">
+			<form name="formularioregistro" action="procesar.php" method="post">
+				<center>
+				<table border="1">
+
+					<tr>
+						<td colspan="2" class="titu" >ORDEN DE POLLO</td>
+					</tr>
+
+					<tr>
+						<td class="sub">Combos:</td>
+						<td class="cont">
+					<input type="radio" name="combobox" value = "7.25" />Super Combo <br>
+					<input type="radio" name="combobox" value = "5.75" />Super Personal <br>
+			        <input type="radio" name="combobox" value = "3.50" />Combo infantil <br>
+						</td>
+						
+					</tr>
+
+
+					<tr>
+						<td class="sub">productos:</td>
+						<td class="sub2">	
+			<input type="checkbox" name="ensalada" value="1.50" />Ensalada <br>
+			<input type="checkbox" name="papasfritas" value="1.25" />Papas fritas <br>
+	<input type="checkbox" name="piezadepollogrande" value="1.75" />pieza de pollo grande <br>
+	<input type="checkbox" name="piezadepollomediana" value="1.50" />pieza de pollo mediana <br>
+	<input type="checkbox" name="pollopequeño" value="1.25" />pieza de pollo pequeña <br>
+			<input type="checkbox" name="bebidagrande" value="1.50" />bebida grande <br>
+			<input type="checkbox" name="bebidamediana" value="1.25" />bebida mediana <br>
+			<input type="checkbox" name="bebidapequeña" value="1" />bebida pequea <br>
+			<input type="checkbox" name="cafe" value="0.50" />cafe <br>
+	<input  type="checkbox" name="postre" value="1.25" />postre <br>
+</td>
+					</tr>
+					<tr>
+
+						<td colspan="2" class="sub" ><center><button type="button" id="botonresolver">CALCULAR</button></center></td>
+						
+					</tr>
+
+					<tr>
+						<td class="sub">sugerencia:</td>
+						<td>
+							<INPUT class="butt" TYPE="BUTTON" value="OCULTAR" onclick="ocultar();">
+								<INPUT class="butt" TYPE="BUTTON" value="MOSTRAR" onclick="mostrar();">
+		<br>
+									<input class="text" type="text" name="txtsugerencia"  size="80" value= ""  />
+						<br>
+					</td>
+					</tr>
+
+					<tr>
+
+						<td><center><button type="button" id="botonresolver2">Enviar</button></center></td>
+					
+						<td class="sub3">
+							Total:    <input type="text" name="resultado"  value="0" disabled />
+						</td>
+
+					</tr>
+
+				</table>
+				
+			
+				</center>
+			</form>
+		</div>
+
+
+	</div>
+</div>
+
+
+			</body>
+</html>
